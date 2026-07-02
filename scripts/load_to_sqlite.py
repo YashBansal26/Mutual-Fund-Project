@@ -11,7 +11,9 @@ files = {
     "transactions":
         "data/processed/investor_transactions_cleaned.csv",
     "performance":
-        "data/processed/scheme_performance_cleaned.csv"
+        "data/processed/scheme_performance_cleaned.csv",
+    "aum_history":
+        "data/processed/aum_history.csv"
 }
 
 for table, file in files.items():
